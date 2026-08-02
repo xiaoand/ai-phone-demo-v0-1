@@ -86,11 +86,14 @@ For live SMS:
 ```env
 SMS_PROVIDER=twilio
 TWILIO_ACCOUNT_SID=AC...
-TWILIO_AUTH_TOKEN=...
+TWILIO_API_KEY=SK...
+TWILIO_API_SECRET=...
 TWILIO_FROM_NUMBER=+15551234567
 ```
 
 For local demos, leave `SMS_PROVIDER=console`; the message is logged instead of sent.
+
+See `docs/credentials-setup.md` for the full OpenAI, Retell, Twilio, and Google Calendar credential checklist.
 
 ## 48 Hour Delivery Plan
 
